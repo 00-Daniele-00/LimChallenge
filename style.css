@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 950px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 80px;
+    border-radius: 25px;
+}
+
+
+
+header {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#titolo {
+    color: rgb(35, 200, 35);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+nav {
+    background-color: rgb(35, 200, 35);
+    margin-top: 2px;
+    padding: 10px;
+}
+
+button {
+    font-size: 12px;
+}
+
+
+
+h2,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+section span,
+section>h2 {
+    color: white;
+    padding: 4px;
+}
+
+section>h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+section span {
+    font-size: 15px;
+}
+
+.stato-carica {
+    display: block;
+}
+
+.stato-batteria {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#media {
+    background-color: orange;
+    width: 300px;
+}
+
+#piena {
+    background-color: green;
+    width: 500px;
+}
+
+#scarica {
+    background-color: red;
+    width: 130px;
+}
